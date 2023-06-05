@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />    
+        <title>Pizza Order</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Pizza Order</legend>
+        
+        <form action="pizza.html" method="get">
+                <label for="name:"></label>
+                <input text="text" id="name:" name="name" required minlength="3" maxlength="10" size="10" placeholder="Name" >
+                <br>
+                <br>
+                <label for="email"></label>
+                <input text="email" id="email" pattern=".+@\.com" size="10" required placeholder="email" >
+                <br>
+        </form>
+        <form action="pizza.html" method="get">
+            <br>
+            Cantitate:                
+            <select name="cantitate"> 
+                <option value="1">1</option>
+                <option value="2" selected="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+            </select>
+        <br>
+        <br>
+        <span> Topping: </span> 
+        <input type="radio" name="tip" id="Supreme">
+            <label for="Supreme"> Supreme </label>
+        <input type="radio" name="tip" id="Vegetarian" value="Vegetarian">
+            <label for="Vegetarian"> Vegetarian </label>
+        <input type="radio" name="tip" id="Hawaiana">
+            <label for="Hawaian"> Hawaian </label>
+            <br>
+            <br>
+        <span> Sauce: </span> 
+            <select name="optiuni">
+                <option value="tomato">Tomato</option>
+                <option value="mayonnaise">Mayonnaise</option>
+                <option value="garlic">Garlic</option>
+            </select> 
+            <br>
+            <br>  
+        <span> Extras: </span> 
+            <input type="checkbox" name="cheese" id="cheese" value="Cheese">
+              <label for="cheese"> Cheese </label>
+            <input type="checkbox" name="onions" id="onions" >
+             <label for="onions"> Onions </label>
+            <input type="checkbox" name="olives" id="olives">
+                <label for="olives"> Olives </label>
+        
+        <br>
+        <br>
+            <label for="start">Data livrare:</label>
+            <input type="date" id="start" name="trip-start" value="2023-06-07" min="2023-06-01" max="2023-12-31"/>
+        <br>
+        <br>
+        <span> Delivery instructions: </span>
+        <br>
+        <textarea name="delivery" cols="60" rows="4">
+        </textarea>
+        <br>
+        <br>
+        <input type="submit" name="send-order" value="Send order">
+        <input type="reset">
+        </form>
+    </fieldset>
+    </body>
+
+</html>
