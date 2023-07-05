@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 75%;
+    height: 30px;
+    background-color: yellow;
+}
+.logo{
+    float: left; 
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}  
+
+nav ul li a:{
+    color:rgb(255, 0, 0);
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0px 32px;
+}
