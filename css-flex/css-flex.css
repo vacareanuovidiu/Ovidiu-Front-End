@@ -22,16 +22,18 @@ header > h3 {
     flex-grow: 0 1 auto;
 }
 .card {
-    background-color: bisque;
+    background-color: rgb(18, 84, 88);
     border: 1px solid grey;
     border-radius: 15px;
     padding: 20px 15px;
     text-align: center;
 }
 .card:hover {
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+    box-shadow: 2px 2px 6px rgb(255, 234, 42);
 }
 .image {
+    width: 200px;
+    height: 225px;
     max-width: 100%;
     border-radius: 5px;
 }
